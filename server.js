@@ -8,7 +8,7 @@ mongoose.Promise = global.Promise;
 const config = require('./app/config');
 const chatController = require('./app/controllers/chat');
 const apiRoutes = require('./app/routes/routes');
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 6000;
 const app = express();
 
 app.use(express.static(path.join(__dirname, 'public')));
@@ -51,7 +51,6 @@ app.get('/', function(req, res) {
 });
 
 app.listen(port);
-console.log('Backend server is running on http://localhost:3000');
 
 // Web Socket Connection Start
 const WebSocket = require('ws');
