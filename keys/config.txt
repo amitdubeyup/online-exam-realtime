@@ -1,4 +1,4 @@
-GIT URL: https://github.com/amitdubey8888/moshikhayaka-api.git
+GIT URL: https://github.com/amitdubey8888/moshikhayaka-socket.git
 AWS PUBLIC IP: 13.232.113.224
 
 How to connect AWS?
