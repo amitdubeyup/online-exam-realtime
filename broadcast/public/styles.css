@@ -3,7 +3,35 @@ html {
   height: 100%;
 }
 
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.row{
+  position: fixed;
+  top: 0px;
+  display: inline;
+  max-width: 100%;
+  width: 100%;
+  z-index: 9;
+}
+
+.left-col{
+  float: left;
+  text-align: left;
+  width: 50%;
+}
+.right-col{
+  float: right;
+  text-align: right;
+  width: 50%;
+}
+.select{
+
+}
+
 video {
-  width: 700px;
-  height: 500px;
+  width: -webkit-fill-available;
+  height: 100%;
 }
