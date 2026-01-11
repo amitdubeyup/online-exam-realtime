@@ -1,4 +1,4 @@
-# moshikhayaka-socket
+# Online Exam Realtime
 
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 
