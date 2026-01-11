@@ -1,3 +1,73 @@
-Export: mongoexport --uri mongodb+srv://my-exam:my-exam@my-exam.3gbln.mongodb.net/my-exam --collection User --type JSON --out User.json
-Import: mongoimport --uri mongodb+srv://moshikhayaka:moshikhayaka@moshikhayaka.hnpcr.mongodb.net/moshikhayaka --collection User --type JSON --file User.json
-# Broadcaster Added
+# moshikhayaka-socket
+
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+
+A awesome app for online exam!
+
+## 🚀 Tech Stack
+
+- MongoDB
+
+## ✨ Features
+
+- Modern and scalable architecture
+- Database integration
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/amitdubeyup/moshikhayaka-socket.git
+cd moshikhayaka-socket
+
+# Install dependencies
+npm install
+```
+
+## ⚙️ Configuration
+
+Create a `.env` file in the root directory:
+
+```bash
+cp .env.example .env
+```
+
+Update the `.env` file with your configuration values.
+
+## 🚀 Usage
+
+```bash
+# Production mode
+npm start
+
+# Run tests
+npm test
+```
+
+## 📜 Available Scripts
+
+- `npm run start` - node server.js
+- `npm run test` - App is working fine!
+
+## 📁 Project Structure
+
+```
+moshikhayaka-socket/
+├── package.json
+├── .env.example
+├── README.md
+```
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👤 Author
+
+**Amit Dubey**
+
+- GitHub: [@amitdubeyup](https://github.com/amitdubeyup)
